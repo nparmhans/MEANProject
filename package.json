@@ -1,0 +1,24 @@
+{
+  "name": "Twitter_Globe",
+  "description":"Showing Tweets from Twitter Streamng API line on Google Map",
+  "author":"Nirupa-Parmhans",
+  "scripts":{
+    "start": "./bin/server.js"
+    },
+  "engines":{
+    "node": ">=0.4.0"
+  },
+  "directories": {
+    "lib": "./lib"
+    },
+  "main": "./lib/live-twitter-map",
+  "bin": { 
+    "server": "./bin/server.js"
+  },
+  "dependencies": {
+  	"coffee-script": "~1.6.3",
+  	"socket.io": "0.9.16",
+    "ntwitter": "~0.5.0",
+    "express": "~3.4.7"
+  }
+}
